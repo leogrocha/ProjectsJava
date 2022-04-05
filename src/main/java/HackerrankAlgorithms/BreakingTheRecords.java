@@ -32,9 +32,10 @@ public class BreakingTheRecords {
 	}
 	
 	public static void main(String[] args) {
-		//List<Integer> scores = Arrays.asList(10,5,20,20,4,5,2,25,1);
 		List<Integer> scores = Arrays.asList(3,4,21,36,10,28,35,5,24,42);
+		List<Integer> scoresTwo = Arrays.asList(10,5,20,20,4,5,2,25,1);
 		
 		System.out.println(breakingRecords(scores));
+		System.out.println(breakingRecords(scoresTwo));
 	}
 }
