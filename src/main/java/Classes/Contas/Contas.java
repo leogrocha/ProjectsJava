@@ -1,5 +1,6 @@
 package Classes.Contas;
 
+
 public abstract class Contas {
 	private int id;
 	private String nome;
@@ -97,7 +98,4 @@ public abstract class Contas {
 				+ saldo + ", status_emprestimo=" + status_emprestimo + ", valor_limite_emprestimo="
 				+ valor_limite_emprestimo + "]";
 	}
-
-	
-
 }
