@@ -30,10 +30,13 @@ public class SubArrayDivision {
 	}
 	
 	public static void main(String[] args) {
-		List<Integer> s = Arrays.asList(1,2,1,3,2);
+		//List<Integer> s = Arrays.asList(1,2,1,3,2);
+		List<Integer> s = Arrays.asList(5,1,2,4,4,2,4,2,2,5,1,4,3,1,1,1,2,1,4,1);
+		int d = 18;
+		int m = 6;
 		
-		int d = 3;
-		int m = 2;
+//		int d = 3;
+//		int m = 2;
 		
 		System.out.println(birthday(s, d, m));
 		
