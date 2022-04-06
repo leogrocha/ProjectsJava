@@ -23,8 +23,9 @@ public class DivisibleSumPairs {
 		
 		for(int i = 0; i < n; i++) {
 			for(int j = 1; j < n; j++) {
-				boolean divisivel = ar.get(i) + ar.get(j) % k == 0; 
-				if(i < j && divisivel) {
+				int sum = ar.get(i) + ar.get(j);
+				boolean divisivel = sum % k == 0; 
+				if(i < j && divisivel == true) {
 					count++;
 				}
 			}
