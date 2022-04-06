@@ -1,15 +1,18 @@
 package Exercises;
 
+import java.util.HashSet;
+import java.util.Set;
 
 public class Test {
     public static void main(String[] args) {
-        int n = 5;
-        int a = 3;
-        int b = 2;
-        int sum = a + b;
+        Set<Integer> nums = new HashSet<Integer>();
+        nums.add(10);
+        nums.add(20);
+        nums.add(30);
+        nums.add(40);
+        nums.add(50);
         
-        boolean div = sum % n == 0;
-        System.out.println(div);
+        System.out.println();
         
     }
 }

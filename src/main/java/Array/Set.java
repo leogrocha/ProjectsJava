@@ -1,6 +1,7 @@
 package Array;
 
 import java.util.HashSet;
+import java.util.List;
 
 public class Set {
 	public static void main(String[] args) {
@@ -15,5 +16,22 @@ public class Set {
 		
 		nums.add(1);
 		System.out.println(nums); // [1, 2, 3, 4, 5]
+		
+		System.out.println(nums.size()); //5
+		
+		System.out.println(nums.contains(1)); //true
+		System.out.println(nums.contains(100)); //false
+		
+		System.out.println(nums.isEmpty()); // false
+		
+		// Transformando o Set em uma Lista
+		System.out.println(nums.stream().toList()); // [1,2,3,4,5]
+		List<Integer> array = nums.stream().toList();
+		
+		System.out.println(array.get(2)); //3
+		
+		
+		
+		
 	}
 }
