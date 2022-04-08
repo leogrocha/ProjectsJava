@@ -36,8 +36,6 @@ public class Matrizes1 {
 		
 		System.out.println("Soma da diagonal principal: " + sum);
 		
-		
-		
-		
+		scan.close();
 	}
 }
