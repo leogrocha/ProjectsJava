@@ -16,6 +16,8 @@ public class Exemplo2 {
 	 * gerar um relatório consolidado com os totais de cada candidato.
 	 * */
 	
+	// Para poder testar o exemplo vai ser necessário criar um arquivo
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
