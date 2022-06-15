@@ -20,7 +20,5 @@ public class JavaStringReverse {
 		}
 		
 		System.out.println(palindrome);
-		
-		
 	}
 }
