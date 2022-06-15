@@ -18,13 +18,10 @@ public class JavaStringsIntroduction {
 		} else {
 			System.out.println("No");
 		}
-		 
 		
+		String maiuscula_a = A.substring(0,1).toUpperCase() + "" + A.substring(1, A.length());
+		String maiuscula_b = B.substring(0,1).toUpperCase() + "" + B.substring(1, B.length());
 		
-		
-		
-		
-		
-		
+		System.out.println(maiuscula_a + " " + maiuscula_b);
 	}
 }
