@@ -8,7 +8,7 @@ import java.util.GregorianCalendar;
 public class DiaSemana {
 	
 	public static String getWeek(int month, int day, int year){ 
-	    String dayWeek = "---";
+	    String dayWeek = "";
 	    GregorianCalendar gc = new GregorianCalendar();
 	    
 	    try {
