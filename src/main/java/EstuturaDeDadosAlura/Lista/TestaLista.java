@@ -1,9 +1,8 @@
-package EstuturaDeDadosAlura.ListaLigada;
+package EstuturaDeDadosAlura.Lista;
 
-public class TestaListaLigada {
+public class TestaLista {
 	public static void main(String[] args) {
-		
-		ListaLigada lista = new ListaLigada();
+		Lista lista = new Lista();
 		
 		System.out.println(lista);
 		lista.adicionaNoComeco("mauricio");
@@ -13,10 +12,10 @@ public class TestaListaLigada {
 		lista.adicionaNoComeco("guilherme");
 		System.out.println(lista);
 		
-		lista.adiciona("Marcelo");
+		lista.adiciona("marcelo");
 		System.out.println(lista);
 		
-//		lista.adiciona(2, "Gabriel");
+		lista.adiciona(2, "gabriel");
 		System.out.println(lista);
 		
 		Object x = lista.pega(2);
@@ -24,8 +23,10 @@ public class TestaListaLigada {
 		
 		System.out.println(lista.tamanho());
 		
-//		lista.removeDoComeco();
-//		System.out.println(lista);
-//		System.out.println(lista.tamanho());
+		lista.removeDoComeco();
+		System.out.println(lista);
+		System.out.println(lista.tamanho());
+		
+		
 	}
 }
