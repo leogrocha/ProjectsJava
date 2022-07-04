@@ -27,6 +27,16 @@ public class TestaLista {
 		System.out.println(lista);
 		System.out.println(lista.tamanho());
 		
+		lista.removeDoFim();
+		System.out.println(lista);
+		
+		lista.remove(1);
+		System.out.println(lista);
+		
+		System.out.println(lista.contem("paulo"));
+		System.out.println(lista.contem("seu madruga"));
+		
+		
 		
 	}
 }
