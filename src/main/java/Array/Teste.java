@@ -1,9 +1,9 @@
 package Array;
 
-import java.util.ArrayList;
-
-public class ExampleArrayList {
+public class Teste {
 	public static void main(String[] args) {
+		int a = 10;
 		
+		System.out.println(a);
 	}
 }
