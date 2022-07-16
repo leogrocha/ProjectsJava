@@ -1,14 +1,14 @@
 package Scanner;
 
-import java.util.Scanner;
+;
 
 public class HasNext {
 	public static void main(String[] args) {
-		String s = "Hello, This is JavaTpoint";
+		// String s = "Hello, This is JavaTpoint";
 		
-		Scanner scan = new Scanner(s);
+		// Scanner scan = new Scanner(s);
 		
-		System.out.println("Result: " + scan.hasNext());
+		// System.out.println("Result: " + scan.hasNext());
 		
 		
 	}

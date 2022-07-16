@@ -17,7 +17,7 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMessage.RecipientType;
 import javax.mail.internet.MimeMultipart;
 
-import org.apache.commons.mail.HtmlEmail;
+
 
 
 public class Example1 {
@@ -47,7 +47,7 @@ public class Example1 {
         message.setSubject("Enviando uma mensagem formatada com anexo");
         
         // conteudo html que sera atribuido a mensagem
-        String htmlMessage = "< h t m l > Código HTML da mensagem ";
+        String htmlMessage = "< h t m l > Cï¿½digo HTML da mensagem ";
 
         //criando a Multipart
         Multipart multipart = new MimeMultipart();
@@ -59,7 +59,7 @@ public class Example1 {
         //adicionando na multipart
         multipart.addBodyPart(attachment0);
         
-        //arquivo que será anexado
+        //arquivo que serï¿½ anexado
         String pathname = "duke.png";//pode conter o caminho
         File file = new File(pathname);
 
@@ -67,7 +67,7 @@ public class Example1 {
         MimeBodyPart attachment1 = new MimeBodyPart();  
         //configurando o DataHandler para o arquivo desejado
         //a leitura dos bytes, descoberta e configuracao do tipo
-        //do arquivo serão resolvidos pelo JAF (DataHandler e FileDataSource)
+        //do arquivo serï¿½o resolvidos pelo JAF (DataHandler e FileDataSource)
         attachment1.setDataHandler(new DataHandler(new FileDataSource(file)));
         //configurando o nome do arquivo que pode ser diferente do arquivo
         //original Ex: setFileName("outroNome.png")

@@ -1,7 +1,6 @@
 package ListasSetsMapsAlura.Objetos;
 
 import java.util.Collection;
-import java.util.ArrayList;
 import java.util.HashSet;
 
 public class TestaPerformance {
