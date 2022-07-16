@@ -3,12 +3,18 @@ package ListasSetsMapsAlura.Objetos;
 import java.util.List;
 import java.util.Collections;
 import java.util.LinkedList;
+import java.util.Set;
+
+import ListasSetsMapsAlura.Aluno.Aluno;
+
+import java.util.HashSet;
 
 public class Curso {
 
 	private String nome;
 	private String instrutor;
 	private List<Aula> aulas = new LinkedList<Aula>();
+	private Set<Aluno> alunos = new HashSet<>(); 
 	private int qtde_aulas = 0;
 
 	public Curso(String nome, String instrutor) {
@@ -52,6 +58,15 @@ public class Curso {
 	@Override
 	public String toString() {
 		return "[Curso: " + nome + ", tempo total: " + this.getTempoTotal() + "," + "aulas: " + this.aulas + "]";
+	}
+
+	public void matricula(Aluno aluno) {
+		this.alunos.add(aluno);
+		
+	}
+	
+	public Set<Aluno> getAlunos() {
+		return Collections.unmodifiableSet(alunos);
 	}
 	
 	
